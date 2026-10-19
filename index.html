@@ -1,1098 +1,485 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4You Consultoria — Método Trivium</title>
-    <meta
-      name="description"
-      content="4You Consultoria Empresarial, em Guarapuava (PR). Método Trivium: planejamento, controles, execução e diagnóstico para potencializar os resultados da sua empresa."
-    />
-    <meta name="theme-color" content="#0a3d2b" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="pt_BR" />
-    <meta property="og:title" content="4You Consultoria — Método Trivium" />
-    <meta
-      property="og:description"
-      content="Mais de 100 empresas já potencializaram seus resultados com a 4You. Agende seu Raio-X gratuito."
-    />
-    <meta property="og:image" content="img/hero-equipe.webp" />
-    <link rel="icon" href="4you-favicon/favicon.ico" sizes="any" />
-    <link rel="icon" href="4you-favicon/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="4you-favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="4you-favicon/site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css?v=2" />
-  </head>
-  <body>
-    <header>
-      <a
-        class="brand"
-        href="#"
-        aria-label="4You Consultoria Empresarial — início"
-      >
-        <img
-          src="img/logo-4you.webp"
-          width="484"
-          height="176"
-          alt="4You Consultoria Empresarial"
-          fetchpriority="high"
-        />
-      </a>
-      <button
-        class="nav-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="site-nav"
-      >
-        Menu
-      </button>
-      <nav id="site-nav">
-        <a href="#significado">O Trivium</a>
-        <a href="#clientes">Clientes</a>
-        <a href="#cases">Cases</a>
-        <a href="#metodologias">Metodologias</a>
-        <a href="#portfolio">Portfólio</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#equipe">Equipe</a>
-        <a href="#contato">Contato</a>
-        <a
-          class="ghost-btn"
-          href="https://form.respondi.app/IJdd9hLZ"
-          target="_blank"
-          rel="noopener"
-          >Raio-X Gratuito</a
-        >
-        <a
-          class="cta-btn"
-          href="https://wa.me/554298282297"
-          target="_blank"
-          rel="noopener"
-          >Falar no WhatsApp</a
-        >
-      </nav>
-    </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4You Consultoria — Método Trivium</title>
+<meta name="description" content="4You Consultoria Empresarial, em Guarapuava (PR). Método Trivium: planejamento, controles, execução e diagnóstico para potencializar os resultados da sua empresa.">
+<meta name="theme-color" content="#0A3D2B">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="4You Consultoria — Método Trivium">
+<meta property="og:description" content="Mais de 100 empresas já potencializaram seus resultados com a 4You. Agende seu Raio-X gratuito.">
+<meta property="og:image" content="img/hero-equipe.webp">
+<link rel="icon" href="4you-favicon/favicon.ico" sizes="any">
+<link rel="icon" href="4you-favicon/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="4you-favicon/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="wrap">
+<header>
+  <a class="brand" href="#" aria-label="4You Consultoria Empresarial — início"><img src="img/logo-4you.webp" width="377" height="137" alt="4You Consultoria Empresarial"></a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav id="site-nav">
+    <a href="#equipe">Equipe</a>
+    <a href="#significado">O Trivium</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#cases">Cases</a>
+    <a href="#ciclo">Ciclo</a>
+    <a href="#metodologias">Metodologias</a>
+    <a href="#orpo">O.R.P.O.</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+    <a class="ghost-btn" href="https://form.respondi.app/IJdd9hLZ" target="_blank" rel="noopener">Raio-X Gratuito</a>
+    <a class="cta-btn" href="https://wa.me/554298282297" target="_blank" rel="noopener">Falar no WhatsApp</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1 class="display">Método <span>Trivium</span></h1>
+      <p class="hero-quote">Quando existe planejamento, a meta deixa de ser um limite e se torna apenas o ponto de partida.<strong>Mais de 100 empresas já potencializaram seus resultados com a 4You</strong></p>
+    </div>
+    <div class="hero-art">
+      <div class="hero-photo-frame">
+        <img class="hero-team-photo" src="img/hero-equipe.webp" width="1000" height="701" alt="Equipe 4You Consultoria Empresarial" fetchpriority="high">
+        <div class="hero-photo-caption">
+          <span>EQUIPE 4YOU</span>
+          <span>CONSULTORES</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPE -->
+<section id="equipe" class="dark section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Quem conduz o Método Trivium</span>
+      <h2 class="display">Nossa <span class="amber-txt">equipe</span></h2>
+      <p>Conheça os consultores e suas especialidades que vão trazer resultado para a sua empresa.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <img class="team-photo" src="img/equipe-matheus.webp" width="260" height="260" alt="Matheus Buongermino" loading="lazy" decoding="async">
+        <h4>Matheus Buongermino</h4>
+        <span class="team-role">Consultor de vendas e comunicação</span>
+        <p>Bacharel em Jornalismo, mestrado em Administração.</p>
+      </div>
+      <div class="team-card">
+        <img class="team-photo" src="img/equipe-ademir.webp" width="260" height="260" alt="Ademir Junior" loading="lazy" decoding="async">
+        <h4>Ademir Junior</h4>
+        <span class="team-role">Consultor financeiro</span>
+        <p>Bacharel em Administração e bacharel em Direito.</p>
+      </div>
+      <div class="team-card">
+        <img class="team-photo" src="img/equipe-juliano.webp" width="260" height="260" alt="Juliano Fanfa" loading="lazy" decoding="async">
+        <h4>Juliano Fanfa</h4>
+        <span class="team-role">Consultor de inovação</span>
+        <p>Bacharel em Administração.</p>
+      </div>
+      <div class="team-card">
+        <img class="team-photo" src="img/equipe-mauricio.webp" width="260" height="260" alt="Maurício Fabiano Azevedo Filho" loading="lazy" decoding="async">
+        <h4>Maurício Fabiano Azevedo Filho</h4>
+        <span class="team-role">Gestor de Projetos</span>
+        <p>Graduando em Ciência da Computação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNIFICADO TRIVIUM -->
+<section id="significado" class="light section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">O nome</span>
+      <h2 class="display">O que significa <span class="amber-txt">Trivium</span>?</h2>
+      <p>Na Idade Média, o Trivium era o conjunto das três artes fundamentais da educação clássica: gramática, lógica e retórica. A base do conhecimento, da formação e da estratégia — exatamente o que buscamos entregar para cada empresa.</p>
+    </div>
+    <div class="trivium-def-grid">
+      <div class="trivium-def-card">
+        <h4>Trivium</h4>
+        <p>Conhecimento, formação e estratégia — as três artes clássicas reunidas em um método.</p>
+      </div>
+      <div class="trivium-def-card">
+        <h4>Vivus / Vivum</h4>
+        <p>Do latim, "vivo". Um método vivo, que se adapta à realidade de cada negócio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTES -->
+<section id="clientes" class="light section-pad clients-section">
+  <div class="wrap">
+    <div class="clients-intro">
+      <div class="section-head no-mb">
+        <span class="eyebrow">Quem confia na 4You</span>
+        <h2 class="display">Empresas que <span class="amber-txt">atendemos</span></h2>
+        <p>De clínicas e óticas a redes de franquia e financeiras — negócios de portes e setores diferentes já passaram pelo Método Trivium. E não paramos na consultoria: acompanhamos de perto a rotina de cada cliente.</p>
+      </div>
+      <figure class="photo-figure clients-photo">
+        <img src="img/clientes-visita.webp" width="750" height="1000" alt="Equipe 4You em visita a cliente parceiro" loading="lazy" decoding="async">
+      </figure>
+    </div>
+    <div class="clients-grid">
+      <div class="client-card"><img src="img/cliente-cresol.webp" width="333" height="283" alt="Cresol" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-chiquinho.webp" width="334" height="283" alt="Chiquinho" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-stone.webp" width="333" height="283" alt="Stone" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-orthodontic.webp" width="333" height="283" alt="OrthoDontic" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-odontotop.webp" width="334" height="283" alt="OdontoTop" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-kicar.webp" width="333" height="283" alt="KiCar Auto Service" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-dogking.webp" width="333" height="283" alt="Dog King" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-ss-otica.webp" width="333" height="283" alt="S&amp;S Ótica" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-babysol.webp" width="333" height="283" alt="Babysol" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-grupo-monitora.webp" width="334" height="283" alt="Grupo Monitora" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-vicofarma.webp" width="333" height="284" alt="Vicofarma" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-hospital-olhos.webp" width="334" height="284" alt="Hospital de Olhos de Guarapuava" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-guarabox.webp" width="333" height="284" alt="Guara Box" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-lc-investimentos.webp" width="333" height="284" alt="LC Investimentos" loading="lazy" decoding="async"></div>
+      <div class="client-card"><img src="img/cliente-marx-modas.webp" width="334" height="283" alt="Marx Modas" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria" class="light section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">No dia a dia</span>
+      <h2 class="display">Nossa rotina com os <span class="amber-txt">clientes</span></h2>
+      <p>Um pouco dos bastidores das consultorias, treinamentos e parcerias da 4You.</p>
+    </div>
+    <div class="gallery-grid">
+          <div class="gallery-item"><img src="img/galeria-01.webp" width="500" height="500" alt="Palestra para jovens do Colégio Cristo Rei" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-02.webp" width="500" height="500" alt="Capacitação Cultura Empresarial" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-03.webp" width="500" height="500" alt="Reunião com a equipe da Vicofarma" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-04.webp" width="500" height="500" alt="Entrega de diagnóstico e plano de ação para cliente" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-05.webp" width="500" height="500" alt="Projeto com a equipe da Cresol" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-06.webp" width="500" height="500" alt="Relatório Executivo de Análise Financeira" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-07.webp" width="500" height="500" alt="Reunião de planejamento estratégico" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-08.webp" width="500" height="500" alt="Evento de inauguração da nova sala" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-09.webp" width="500" height="500" alt="Palestra sobre empreendedorismo para jovens" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-10.webp" width="500" height="500" alt="Capacitação sobre cultura empresarial e ritos" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-11.webp" width="500" height="500" alt="Palestra sobre comunicação" loading="lazy" decoding="async"></div>
+          <div class="gallery-item"><img src="img/galeria-12.webp" width="500" height="500" alt="Treinamento sobre liderança e cultura empresarial" loading="lazy" decoding="async"></div>
+        
+    </div>
+  </div>
+</section>
+
+<!-- CASES DE SUCESSO -->
+<section id="cases" class="dark section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Depoimentos e resultados</span>
+      <h2 class="display">Cases de <span class="amber-txt">sucesso</span> da 4You</h2>
+      <p>Impactamos o trabalho de vários empreendedores — veja alguns depoimentos e resultados reais de quem já passou pelo Método Trivium.</p>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img class="testimonial-photo" src="img/depoimento-luciana.webp" width="200" height="200" alt="Luciana Grattão" loading="lazy" decoding="async">
         <div>
-          <h1 class="display">Método <span>Trivium</span></h1>
-          <p class="hero-quote">
-            Quando existe planejamento, a meta deixa de ser um limite e se torna
-            apenas o ponto de partida.<strong
-              >Mais de 100 empresas já potencializaram seus resultados com a
-              4You</strong
-            >
-          </p>
-          <div class="hero-actions">
-            <a
-              class="cta-btn"
-              href="https://wa.me/554298282297"
-              target="_blank"
-              rel="noopener"
-              >Falar no WhatsApp</a
-            >
-            <a
-              class="ghost-btn"
-              href="https://form.respondi.app/IJdd9hLZ"
-              target="_blank"
-              rel="noopener"
-              >Raio-X Gratuito</a
-            >
-          </div>
-        </div>
-        <div class="hero-art">
-          <div class="hero-photo-frame">
-            <img
-              class="hero-team-photo"
-              src="img/hero-equipe.webp"
-              width="960"
-              height="673"
-              fetchpriority="high"
-              alt="Equipe 4You Consultoria Empresarial"
-            />
-            <div class="hero-photo-caption">
-              <span>EQUIPE 4YOU</span>
-              <span>CONSULTORES</span>
-            </div>
-          </div>
+          <p class="testimonial-quote">"O treinamento da 4You com a Orthodontic foi muito proveitoso junto com os nossos colaboradores. Falamos sobre comunicação que é um tema muito importante para nosso desenvolvimento e agradeço demais o conhecimento passado".</p>
+          <p class="testimonial-author"><strong>Luciana Grattão</strong>, proprietária da Orthodontic Guarapuava</p>
         </div>
       </div>
-    </section>
+      <div class="testimonial-card">
+        <img class="testimonial-photo" src="img/depoimento-anderson.webp" width="200" height="200" alt="Anderson Dall Agnol" loading="lazy" decoding="async">
+        <div>
+          <p class="testimonial-quote">"O treinamento da 4You foi excepcional! Agregou muito conhecimento para a nossa equipe principalmente na questão de comunicação e vendas. Com certeza o treinamento fez com que a nossa equipe se capacitasse muito com as técnicas que são usadas no dia a dia".</p>
+          <p class="testimonial-author"><strong>Anderson Dall Agnol</strong>, proprietário da Odontotop Capanema</p>
+        </div>
+      </div>
+    </div>
 
-    <!-- SIGNIFICADO TRIVIUM -->
-    <section id="significado" class="light section-pad">
-      <div class="wrap">
+    <div class="case-grid">
+      <div class="case-card">
+        <img class="case-photo" src="img/case-lc.webp" width="180" height="180" alt="Case LC Investimentos" loading="lazy" decoding="async">
+        <div>
+          <h3>LC Investimentos</h3>
+          <p>Definição do ICP, estruturação de cargos e atividades do time, implementação de ferramentas para intensificar a prospecção, definição de metas de faturamento e atividade.</p>
+          <p class="case-result">Resultado: <strong>maior faturamento do ano no mês de maio — um aumento de 100% em relação aos últimos meses nas vendas de consórcio.</strong></p>
+        </div>
+      </div>
+      <div class="case-card">
+        <img class="case-photo" src="img/case-ss.webp" width="180" height="180" alt="Case S&amp;S Ótica" loading="lazy" decoding="async">
+        <div>
+          <h3>S&amp;S Ótica</h3>
+          <p>Definição de metas de atividade e faturamento, planos de bonificação da equipe de vendas, implementação de processos de prospecção ativa e de organização interna.</p>
+          <p class="case-result">Resultado: <strong>aumento de em torno 80% do faturamento em um recorte de 8 meses.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CICLO -->
+<section id="ciclo" class="dark section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Ciclo da consultoria</span>
+      <h2 class="display">O <span class="amber-txt">Método Trivium</span> em 4 etapas</h2>
+      <p>Toda consultoria 4You passa pelo mesmo ciclo — da leitura da realidade até o acompanhamento dos resultados, sempre reiniciando.</p>
+    </div>
+
+    <div class="cycle-row">
+      <div class="cycle-card">
+        <span class="num">1</span>
+        <h3>Plano de Ação</h3>
+        <ul>
+          <li>Realidade estudada</li>
+          <li>Realidade projetada</li>
+          <li>Plano de ação (O.R.P.O.)</li>
+        </ul>
+        <span class="tag">Abre toda reunião</span>
+        <span class="cycle-arrow">›</span>
+      </div>
+      <div class="cycle-card">
+        <span class="num">2</span>
+        <h3>Criar Controles</h3>
+        <ul>
+          <li>Indicadores e planilhas de apoio</li>
+          <li>Rotinas de acompanhamento</li>
+        </ul>
+        <span class="cycle-arrow">›</span>
+      </div>
+      <div class="cycle-card">
+        <span class="num">3</span>
+        <h3>Execução / Acompanhamento</h3>
+        <ul>
+          <li>Colocar o plano em prática</li>
+          <li>Reuniões de acompanhamento</li>
+        </ul>
+        <span class="cycle-arrow">›</span>
+      </div>
+      <div class="cycle-card">
+        <span class="num">4</span>
+        <h3>Diagnóstico</h3>
+        <ul>
+          <li>Leitura dos resultados do ciclo</li>
+          <li>Base para o próximo ciclo</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cycle-note">
+      <div class="loop">↻</div>
+      <p><strong>Estimativa de 6 meses</strong> por ciclo — vinculada diretamente à execução das ações definidas no plano.</p>
+    </div>
+  </div>
+</section>
+
+<!-- METODOLOGIAS DE CONSULTORIA -->
+<section id="metodologias" class="light section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Modelos de consultoria</span>
+      <h2 class="display">Dois modelos, o mesmo compromisso com <span class="amber-txt">resultado</span></h2>
+      <p>A 4You conduz cada consultoria dentro de um modelo compatível com o ritmo e a maturidade da empresa: o Método Trivium, mais intensivo, e o Método PDCA, mais simplificado.</p>
+    </div>
+    <div class="method-grid">
+      <div class="method-card highlight">
+        <span class="method-tag">Modelo intensivo</span>
+        <h3>Método Trivium</h3>
+        <p class="method-desc">O modelo mais intenso em frequência de encontros, com acompanhamento próximo para acelerar a execução do planejamento estratégico.</p>
+        <div class="method-block">
+          <h4>Cadência de reuniões</h4>
+          <ul class="method-list">
+            <li>1º mês: 1 reunião por semana (4 reuniões)</li>
+            <li>Demais meses: 1 reunião a cada 15 dias</li>
+          </ul>
+        </div>
+        <div class="method-block">
+          <h4>Entregáveis</h4>
+          <ul class="method-list">
+            <li>Planejamento estratégico</li>
+            <li>Plano de carreira</li>
+            <li>Avaliação de desempenho</li>
+            <li>Estrutura financeira</li>
+            <li>Entre outros entregáveis personalizados</li>
+          </ul>
+        </div>
+      </div>
+      <div class="method-card">
+        <span class="method-tag">Modelo simplificado</span>
+        <h3>Método PDCA</h3>
+        <p class="method-desc">Um modelo simplificado, porém eficiente: acompanhamento mensal focado em manter a empresa no rumo certo com menor frequência de encontros.</p>
+        <div class="method-block">
+          <h4>Cadência de reuniões</h4>
+          <ul class="method-list">
+            <li>1 reunião mensal</li>
+          </ul>
+        </div>
+        <div class="method-block">
+          <h4>Entregável de fechamento</h4>
+          <ul class="method-list">
+            <li>Avaliação dos resultados da empresa no mês</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORPO -->
+<section id="orpo" class="light section-pad">
+  <div class="wrap">
+    <div class="orpo-wrap">
+      <div>
+        <span class="eyebrow">Padrão de todo plano de ação</span>
+        <h2 class="display">O.R.P.O.</h2>
+        <p class="orpo-desc">Toda ação definida na etapa de Plano de Ação segue esta estrutura, garantindo clareza e responsabilidade.</p>
+        <div class="orpo-letters">ORPO</div>
+      </div>
+      <div class="orpo-grid">
+        <div class="orpo-item">
+          <span class="letter">O</span>
+          <div><h4>O que fazer</h4><p>A ação em si, descrita de forma objetiva.</p></div>
+        </div>
+        <div class="orpo-item">
+          <span class="letter">R</span>
+          <div><h4>Responsável</h4><p>Quem dentro da empresa assume a execução.</p></div>
+        </div>
+        <div class="orpo-item">
+          <span class="letter">P</span>
+          <div><h4>Prazo</h4><p>Data definida para a entrega da ação.</p></div>
+        </div>
+        <div class="orpo-item">
+          <span class="letter">O</span>
+          <div><h4>Objetivo</h4><p>O resultado que a ação deve gerar para o negócio.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="dark section-pad">
+  <div class="wrap">
+    <div class="portfolio-layout">
+      <div class="portfolio-text">
         <div class="section-head">
-          <span class="eyebrow">O nome</span>
-          <h2 class="display">
-            O que significa <span class="amber-txt">Trivium</span>?
-          </h2>
-          <p>
-            Na Idade Média, o Trivium era o conjunto das três artes fundamentais
-            da educação clássica: gramática, lógica e retórica. A base do
-            conhecimento, da formação e da estratégia — exatamente o que
-            buscamos entregar para cada empresa.
-          </p>
+          <span class="eyebrow">Portfólio</span>
+          <h2 class="display">Onde a 4You <span class="amber-txt">atua</span></h2>
+          <p>Trabalhamos com um ecossistema de soluções que ajudam o empresário de diversas frentes.</p>
         </div>
-        <div class="trivium-def-grid">
-          <div class="trivium-def-card">
-            <h4>Trivium</h4>
-            <p>
-              Conhecimento, formação e estratégia — as três artes clássicas
-              reunidas em um método.
-            </p>
-          </div>
-          <div class="trivium-def-card">
-            <h4>Vivus / Vivum</h4>
-            <p>
-              Do latim, "vivo". Um método vivo, que se adapta à realidade de
-              cada negócio.
-            </p>
-          </div>
+        <div class="portfolio-cols">
+          <ul class="port-list">
+            <li><span>Setor Financeiro</span><span class="idx">01</span></li>
+            <li><span>Setor Comercial</span><span class="idx">02</span></li>
+            <li><span>Setor de Gestão</span><span class="idx">03</span></li>
+            <li><span>Projeto de Inovação</span><span class="idx">04</span></li>
+          </ul>
+          <ul class="port-list">
+            <li><span>Treinamentos/Aulas</span><span class="idx">05</span></li>
+            <li><span>Consultoria Sprint</span><span class="idx">06</span></li>
+            <li><span>F&amp;A 4You</span><span class="idx">07</span></li>
+            <li><span>Projeto de Gestão de Crises</span><span class="idx">08</span></li>
+          </ul>
         </div>
-      </div>
-    </section>
-
-    <!-- CLIENTES -->
-    <section id="clientes" class="light section-pad clients-section">
-      <div class="wrap">
-        <div class="clients-intro">
-          <div class="section-head" style="margin-bottom: 0">
-            <span class="eyebrow">Quem confia na 4You</span>
-            <h2 class="display">
-              Empresas que <span class="amber-txt">atendemos</span>
-            </h2>
-            <p>
-              De clínicas e óticas a redes de franquia e financeiras — negócios
-              de portes e setores diferentes já passaram pelo Método Trivium. E
-              não paramos na consultoria: acompanhamos de perto a rotina de cada
-              cliente.
-            </p>
-          </div>
-          <figure class="photo-figure clients-photo">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/clientes-visita.webp"
-              width="750"
-              height="1000"
-              alt="Equipe 4You em visita a cliente parceiro"
-            />
-          </figure>
-        </div>
-        <div class="clients-grid">
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-cresol.webp"
-              width="333"
-              height="283"
-              alt="Cresol"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-chiquinho.webp"
-              width="334"
-              height="283"
-              alt="Chiquinho"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-stone.webp"
-              width="333"
-              height="283"
-              alt="Stone"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-orthodontic.webp"
-              width="333"
-              height="283"
-              alt="OrthoDontic"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-odontotop.webp"
-              width="334"
-              height="283"
-              alt="OdontoTop"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-kicar.webp"
-              width="333"
-              height="283"
-              alt="KiCar Auto Service"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-dogking.webp"
-              width="333"
-              height="283"
-              alt="Dog King"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-ss-otica.webp"
-              width="333"
-              height="283"
-              alt="S&amp;S Ótica"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-babysol.webp"
-              width="333"
-              height="283"
-              alt="Babysol"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-grupo-monitora.webp"
-              width="334"
-              height="283"
-              alt="Grupo Monitora"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-vicofarma.webp"
-              width="333"
-              height="284"
-              alt="Vicofarma"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-hospital-olhos.webp"
-              width="334"
-              height="284"
-              alt="Hospital de Olhos de Guarapuava"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-guarabox.webp"
-              width="333"
-              height="284"
-              alt="Guara Box"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-lc-investimentos.webp"
-              width="333"
-              height="284"
-              alt="LC Investimentos"
-            />
-          </div>
-          <div class="client-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/cliente-marx-modas.webp"
-              width="334"
-              height="283"
-              alt="Marx Modas"
-            />
+        <div class="port-new-wrap">
+          <span class="port-new-label">Novidades no portfólio</span>
+          <div class="port-new">
+            <span>Ficha técnica</span>
+            <span>Precificação Odonto</span>
+            <span>DNA Comercial</span>
           </div>
         </div>
       </div>
-    </section>
+      <figure class="photo-figure portfolio-photo">
+        <img src="img/portfolio.webp" width="800" height="1076" alt="Consultor 4You apresentando durante evento" loading="lazy" decoding="async">
+      </figure>
+    </div>
+  </div>
+</section>
 
-    <section id="galeria" class="light section-pad">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">No dia a dia</span>
-          <h2 class="display">
-            Nossa rotina com os <span class="amber-txt">clientes</span>
-          </h2>
-          <p>
-            Um pouco dos bastidores das consultorias, treinamentos e parcerias
-            da 4You.
-          </p>
+<!-- SERVICOS EM DESTAQUE -->
+<section id="servicos" class="light section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Formatos de trabalho</span>
+      <h2 class="display">Serviços em <span class="amber-txt">destaque</span></h2>
+      <p>Além das frentes de consultoria contínua, a 4You conta com formatos específicos para cada momento do negócio.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-tag">Resultado rápido</span>
+        <h3>Sprint</h3>
+        <p>Consultoria com tempo de duração menor e maior impacto dentro da operação. Usamos esse formato para gerar um resultado rápido no negócio do cliente.</p>
+      </div>
+      <div class="service-card highlight">
+        <span class="service-tag">Novidade</span>
+        <h3>F&amp;A 4You</h3>
+        <p>Metodologia estratégica para preparar empresas para uma venda segura, valorizada e estruturada — do diagnóstico completo até a execução da venda, passando por planejamento, organização operacional, gestão de resultados e preparação para investidores.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-tag">Gratuito</span>
+        <h3>Raio-X</h3>
+        <p>Avaliação gratuita feita pela 4You que explora os pontos positivos e os que podem ser melhorados, com o objetivo de identificar de qual forma nosso time pode atuar dentro da sua empresa.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-tag">Para abrir o negócio</span>
+        <h3>Plano de Negócios</h3>
+        <p>Estruturação de um projeto elaborado pela equipe 4You para avaliar a viabilidade da empresa e estruturar ações e processos para a abertura do negócio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO / FOOTER -->
+<footer id="contato">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2 class="display footer-title">Transformando a sua equipe em<br><span class="amber">verdadeiros campeões.</span></h2>
+        <div class="footer-list">
+          <div class="row"><span class="k">Endereço</span><a class="v" href="https://www.google.com/maps/search/?api=1&amp;query=Besha+Boulevard+Av.+Ver.+Serafim+Ribas+2882+Guarapuava+PR" target="_blank" rel="noopener">Besha Boulevard, Av. Ver. Serafim Ribas, 2882 — Guarapuava, PR</a></div>
+          <div class="row"><span class="k">WhatsApp</span><a class="v" href="https://wa.me/554298282297" target="_blank" rel="noopener">(42) 99828-2297</a></div>
+          <div class="row"><span class="k">Instagram</span><a class="v" href="https://www.instagram.com/4youconsultoriaempresarial/" target="_blank" rel="noopener">@4youconsultoriaempresarial</a></div>
         </div>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img
-              src="img/galeria-01.webp"
-              width="500"
-              height="500"
-              alt="Palestra para jovens do Colégio Cristo Rei"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-02.webp"
-              width="500"
-              height="500"
-              alt="Capacitação Cultura Empresarial"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-03.webp"
-              width="500"
-              height="500"
-              alt="Reunião com a equipe da Vicofarma"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-04.webp"
-              width="500"
-              height="500"
-              alt="Entrega de diagnóstico e plano de ação para cliente"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-05.webp"
-              width="500"
-              height="500"
-              alt="Projeto com a equipe da Cresol"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-06.webp"
-              width="500"
-              height="500"
-              alt="Relatório Executivo de Análise Financeira"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-07.webp"
-              width="500"
-              height="500"
-              alt="Reunião de planejamento estratégico"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-08.webp"
-              width="500"
-              height="500"
-              alt="Evento de inauguração da nova sala"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-09.webp"
-              width="500"
-              height="500"
-              alt="Palestra sobre empreendedorismo para jovens"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-10.webp"
-              width="500"
-              height="500"
-              alt="Capacitação sobre cultura empresarial e ritos"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-11.webp"
-              width="500"
-              height="500"
-              alt="Palestra sobre comunicação"
-              loading="lazy"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/galeria-12.webp"
-              width="500"
-              height="500"
-              alt="Treinamento sobre liderança e cultura empresarial"
-              loading="lazy"
-            />
-          </div>
+        <div class="footer-cta">
+          <a class="cta-btn" href="https://wa.me/554298282297" target="_blank" rel="noopener">Falar no WhatsApp</a>
+          <a class="ghost-btn" href="https://form.respondi.app/IJdd9hLZ" target="_blank" rel="noopener">Raio-X Gratuito</a>
         </div>
       </div>
-    </section>
-
-    <!-- CASES DE SUCESSO -->
-    <section id="cases" class="dark section-pad">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Depoimentos e resultados</span>
-          <h2 class="display">
-            Cases de <span class="amber-txt">sucesso</span> da 4You
-          </h2>
-          <p>
-            Impactamos o trabalho de vários empreendedores — veja alguns
-            depoimentos e resultados reais de quem já passou pelo Método
-            Trivium.
-          </p>
-        </div>
-
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="testimonial-photo"
-              src="img/depoimento-luciana.webp"
-              width="200"
-              height="200"
-              alt="Luciana Grattão"
-            />
-            <div>
-              <p class="testimonial-quote">
-                "O treinamento da 4You com a Orthodontic foi muito proveitoso
-                junto com os nossos colaboradores. Falamos sobre comunicação que
-                é um tema muito importante para nosso desenvolvimento e agradeço
-                demais o conhecimento passado".
-              </p>
-              <p class="testimonial-author">
-                <strong>Luciana Grattão</strong>, proprietária da Orthodontic
-                Guarapuava
-              </p>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="testimonial-photo"
-              src="img/depoimento-anderson.webp"
-              width="200"
-              height="200"
-              alt="Anderson Dall Agnol"
-            />
-            <div>
-              <p class="testimonial-quote">
-                "O treinamento da 4You foi excepcional! Agregou muito
-                conhecimento para a nossa equipe principalmente na questão de
-                comunicação e vendas. Com certeza o treinamento fez com que a
-                nossa equipe se capacitasse muito com as técnicas que são usadas
-                no dia a dia".
-              </p>
-              <p class="testimonial-author">
-                <strong>Anderson Dall Agnol</strong>, proprietário da Odontotop
-                Capanema
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="case-grid">
-          <div class="case-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="case-photo"
-              src="img/case-lc.webp"
-              width="180"
-              height="180"
-              alt="Case LC Investimentos"
-            />
-            <div>
-              <h3>LC Investimentos</h3>
-              <p>
-                Definição do ICP, estruturação de cargos e atividades do time,
-                implementação de ferramentas para intensificar a prospecção,
-                definição de metas de faturamento e atividade.
-              </p>
-              <p class="case-result">
-                Resultado:
-                <strong
-                  >maior faturamento do ano no mês de maio — um aumento de 100%
-                  em relação aos últimos meses nas vendas de consórcio.</strong
-                >
-              </p>
-            </div>
-          </div>
-          <div class="case-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="case-photo"
-              src="img/case-ss.webp"
-              width="180"
-              height="180"
-              alt="Case S&amp;S Ótica"
-            />
-            <div>
-              <h3>S&amp;S Ótica</h3>
-              <p>
-                Definição de metas de atividade e faturamento, planos de
-                bonificação da equipe de vendas, implementação de processos de
-                prospecção ativa e de organização interna.
-              </p>
-              <p class="case-result">
-                Resultado:
-                <strong
-                  >aumento de em torno 80% do faturamento em um recorte de 8
-                  meses.</strong
-                >
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="footer-right">
+        <figure class="photo-figure footer-photo-box">
+          <img src="img/contato-equipe.webp" width="600" height="800" alt="Equipe 4You Consultoria Empresarial" loading="lazy" decoding="async">
+        </figure>
       </div>
-    </section>
-
-    <!-- CICLO -->
-    <section id="ciclo" class="dark section-pad">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Ciclo da consultoria</span>
-          <h2 class="display">
-            O <span class="amber-txt">Método Trivium</span> em 4 etapas
-          </h2>
-          <p>
-            Toda consultoria 4You passa pelo mesmo ciclo — da leitura da
-            realidade até o acompanhamento dos resultados, sempre reiniciando.
-          </p>
-        </div>
-
-        <div class="cycle-row">
-          <div class="cycle-card">
-            <span class="num">1</span>
-            <h3>Plano de Ação</h3>
-            <ul>
-              <li>Realidade estudada</li>
-              <li>Realidade projetada</li>
-              <li>Plano de ação (O.R.P.O.)</li>
-            </ul>
-            <span class="tag">Abre toda reunião</span>
-            <span class="cycle-arrow">›</span>
-          </div>
-          <div class="cycle-card">
-            <span class="num">2</span>
-            <h3>Criar Controles</h3>
-            <ul>
-              <li>Indicadores e planilhas de apoio</li>
-              <li>Rotinas de acompanhamento</li>
-            </ul>
-            <span class="cycle-arrow">›</span>
-          </div>
-          <div class="cycle-card">
-            <span class="num">3</span>
-            <h3>Execução / Acompanhamento</h3>
-            <ul>
-              <li>Colocar o plano em prática</li>
-              <li>Reuniões de acompanhamento</li>
-            </ul>
-            <span class="cycle-arrow">›</span>
-          </div>
-          <div class="cycle-card">
-            <span class="num">4</span>
-            <h3>Diagnóstico</h3>
-            <ul>
-              <li>Leitura dos resultados do ciclo</li>
-              <li>Base para o próximo ciclo</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="cycle-note">
-          <div class="loop">↻</div>
-          <p>
-            <strong>Estimativa de 6 meses</strong> por ciclo — vinculada
-            diretamente à execução das ações definidas no plano.
-          </p>
-        </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span class="year">2026</span> 4You Consultoria Empresarial. Todos os direitos reservados.</span>
+      <div class="foot-social">
+        <a href="https://www.instagram.com/4youconsultoriaempresarial/" target="_blank" rel="noopener" aria-label="Instagram da 4You">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1a6.7 6.7 0 1 0 0 13.4 6.7 6.7 0 0 0 0-13.4zm0 11.1a4.4 4.4 0 1 1 0-8.8 4.4 4.4 0 0 1 0 8.8zm6.9-11.4a1.6 1.6 0 1 1-3.1 0 1.6 1.6 0 0 1 3.1 0z"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a href="https://wa.me/554298282297" target="_blank" rel="noopener" aria-label="WhatsApp da 4You">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.9L.2 24l6.3-1.6a11.8 11.8 0 0 0 5.6 1.4A11.8 11.8 0 0 0 20.4 3.6z"/></svg>
+          <span>WhatsApp</span>
+        </a>
       </div>
-    </section>
+    </div>
+  </div>
+</footer>
 
-    <!-- METODOLOGIAS DE CONSULTORIA -->
-    <section id="metodologias" class="light section-pad">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Modelos de consultoria</span>
-          <h2 class="display">
-            Dois modelos, o mesmo compromisso com
-            <span class="amber-txt">resultado</span>
-          </h2>
-          <p>
-            A 4You conduz cada consultoria dentro de um modelo compatível com o
-            ritmo e a maturidade da empresa: o Método Trivium, mais intensivo, e
-            o Método PDCA, mais simplificado.
-          </p>
-        </div>
-        <div class="method-grid">
-          <div class="method-card highlight">
-            <span class="method-tag">Modelo intensivo</span>
-            <h3>Método Trivium</h3>
-            <p class="method-desc">
-              O modelo mais intenso em frequência de encontros, com
-              acompanhamento próximo para acelerar a execução do planejamento
-              estratégico.
-            </p>
-            <div class="method-block">
-              <h4>Cadência de reuniões</h4>
-              <ul class="method-list">
-                <li>1º mês: 1 reunião por semana (4 reuniões)</li>
-                <li>Demais meses: 1 reunião a cada 15 dias</li>
-              </ul>
-            </div>
-            <div class="method-block">
-              <h4>Entregáveis</h4>
-              <ul class="method-list">
-                <li>Planejamento estratégico</li>
-                <li>Plano de carreira</li>
-                <li>Avaliação de desempenho</li>
-                <li>Estrutura financeira</li>
-                <li>Entre outros entregáveis personalizados</li>
-              </ul>
-            </div>
-          </div>
-          <div class="method-card">
-            <span class="method-tag">Modelo simplificado</span>
-            <h3>Método PDCA</h3>
-            <p class="method-desc">
-              Um modelo simplificado, porém eficiente: acompanhamento mensal
-              focado em manter a empresa no rumo certo com menor frequência de
-              encontros.
-            </p>
-            <div class="method-block">
-              <h4>Cadência de reuniões</h4>
-              <ul class="method-list">
-                <li>1 reunião mensal</li>
-              </ul>
-            </div>
-            <div class="method-block">
-              <h4>Entregável de fechamento</h4>
-              <ul class="method-list">
-                <li>Avaliação dos resultados da empresa no mês</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<a class="whatsapp-float" href="https://wa.me/554298282297" target="_blank" rel="noopener" aria-label="Falar com a 4You no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.9L.2 24l6.3-1.6a11.8 11.8 0 0 0 5.6 1.4A11.8 11.8 0 0 0 20.4 3.6z"/></svg>
+</a>
 
-    <!-- ORPO -->
-    <section id="orpo" class="light section-pad">
-      <div class="wrap">
-        <div class="orpo-wrap">
-          <div class="section-head orpo-head">
-            <span class="eyebrow">Padrão de todo plano de ação</span>
-            <h2 class="display">O.R.P.O.</h2>
-            <p>
-              Toda ação definida na etapa de Plano de Ação segue esta estrutura,
-              garantindo clareza e responsabilidade.
-            </p>
-            <div class="orpo-letters" aria-hidden="true">ORPO</div>
-          </div>
-          <div class="orpo-grid">
-            <div class="orpo-item">
-              <span class="letter">O</span>
-              <div>
-                <h4>O que fazer</h4>
-                <p>A ação em si, descrita de forma objetiva.</p>
-              </div>
-            </div>
-            <div class="orpo-item">
-              <span class="letter">R</span>
-              <div>
-                <h4>Responsável</h4>
-                <p>Quem dentro da empresa assume a execução.</p>
-              </div>
-            </div>
-            <div class="orpo-item">
-              <span class="letter">P</span>
-              <div>
-                <h4>Prazo</h4>
-                <p>Data definida para a entrega da ação.</p>
-              </div>
-            </div>
-            <div class="orpo-item">
-              <span class="letter">O</span>
-              <div>
-                <h4>Objetivo</h4>
-                <p>O resultado que a ação deve gerar para o negócio.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PORTFOLIO -->
-    <section id="portfolio" class="dark section-pad">
-      <div class="wrap">
-        <div class="portfolio-layout">
-          <div class="portfolio-text">
-            <div class="section-head">
-              <span class="eyebrow">Portfólio</span>
-              <h2 class="display">
-                Onde a 4You <span class="amber-txt">atua</span>
-              </h2>
-              <p>
-                Trabalhamos com um ecossistema de soluções que ajudam o
-                empresário de diversas frentes.
-              </p>
-            </div>
-            <div class="portfolio-cols">
-              <ul class="port-list">
-                <li>
-                  <span>Setor Financeiro</span><span class="idx">01</span>
-                </li>
-                <li><span>Setor Comercial</span><span class="idx">02</span></li>
-                <li><span>Setor de Gestão</span><span class="idx">03</span></li>
-                <li>
-                  <span>Projeto de Inovação</span><span class="idx">04</span>
-                </li>
-              </ul>
-              <ul class="port-list">
-                <li>
-                  <span>Treinamentos/Aulas</span><span class="idx">05</span>
-                </li>
-                <li>
-                  <span>Consultoria Sprint</span><span class="idx">06</span>
-                </li>
-                <li><span>F&amp;A 4You</span><span class="idx">07</span></li>
-                <li>
-                  <span>Projeto de Gestão de Crises</span
-                  ><span class="idx">08</span>
-                </li>
-              </ul>
-            </div>
-            <div class="port-new-wrap">
-              <span class="port-new-label">Novidades no portfólio</span>
-              <div class="port-new">
-                <span>Ficha técnica</span>
-                <span>Precificação Odonto</span>
-                <span>DNA Comercial</span>
-              </div>
-            </div>
-          </div>
-          <figure class="photo-figure portfolio-photo">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/portfolio.webp"
-              width="800"
-              height="1076"
-              alt="Consultor 4You apresentando durante evento"
-            />
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- SERVICOS EM DESTAQUE -->
-    <section id="servicos" class="light section-pad">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Formatos de trabalho</span>
-          <h2 class="display">
-            Serviços em <span class="amber-txt">destaque</span>
-          </h2>
-          <p>
-            Além das frentes de consultoria contínua, a 4You conta com formatos
-            específicos para cada momento do negócio.
-          </p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <span class="service-tag">Resultado rápido</span>
-            <h3>Sprint</h3>
-            <p>
-              Consultoria com tempo de duração menor e maior impacto dentro da
-              operação. Usamos esse formato para gerar um resultado rápido no
-              negócio do cliente.
-            </p>
-          </div>
-          <div class="service-card highlight">
-            <span class="service-tag">Novidade</span>
-            <h3>F&amp;A 4You</h3>
-            <p>
-              Metodologia estratégica para preparar empresas para uma venda
-              segura, valorizada e estruturada — do diagnóstico completo até a
-              execução da venda, passando por planejamento, organização
-              operacional, gestão de resultados e preparação para investidores.
-            </p>
-          </div>
-          <div class="service-card">
-            <span class="service-tag">Gratuito</span>
-            <h3>Raio-X</h3>
-            <p>
-              Avaliação gratuita feita pela 4You que explora os pontos positivos
-              e os que podem ser melhorados, com o objetivo de identificar de
-              qual forma nosso time pode atuar dentro da sua empresa.
-            </p>
-          </div>
-          <div class="service-card">
-            <span class="service-tag">Para abrir o negócio</span>
-            <h3>Plano de Negócios</h3>
-            <p>
-              Estruturação de um projeto elaborado pela equipe 4You para avaliar
-              a viabilidade da empresa e estruturar ações e processos para a
-              abertura do negócio.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EQUIPE -->
-    <section id="equipe" class="dark section-pad">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Quem conduz o Método Trivium</span>
-          <h2 class="display">Nossa <span class="amber-txt">equipe</span></h2>
-          <p>
-            Conheça os consultores e suas especialidades que vão trazer
-            resultado para a sua empresa.
-          </p>
-        </div>
-        <div class="team-grid">
-          <div class="team-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="team-photo"
-              src="img/equipe-matheus.webp"
-              width="260"
-              height="260"
-              alt="Matheus Buongermino"
-            />
-            <h4>Matheus Buongermino</h4>
-            <span class="team-role">Consultor de vendas e comunicação</span>
-            <p>Bacharel em Jornalismo, mestrado em Administração.</p>
-          </div>
-          <div class="team-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="team-photo"
-              src="img/equipe-ademir.webp"
-              width="260"
-              height="260"
-              alt="Ademir Junior"
-            />
-            <h4>Ademir Junior</h4>
-            <span class="team-role">Consultor financeiro</span>
-            <p>Bacharel em Administração e bacharel em Direito.</p>
-          </div>
-          <div class="team-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="team-photo"
-              src="img/equipe-juliano.webp"
-              width="260"
-              height="260"
-              alt="Juliano Fanfa"
-            />
-            <h4>Juliano Fanfa</h4>
-            <span class="team-role">Consultor de inovação</span>
-            <p>Bacharel em Administração.</p>
-          </div>
-          <div class="team-card">
-            <img
-              loading="lazy"
-              decoding="async"
-              class="team-photo"
-              src="img/equipe-mauricio.webp"
-              width="260"
-              height="260"
-              alt="Maurício Fabiano Azevedo Filho"
-            />
-            <h4>Maurício Fabiano Azevedo Filho</h4>
-            <span class="team-role">Gestor de Projetos</span>
-            <p>Graduando em Ciência da Computação.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROXIMOS PASSOS -->
-    <section id="passos" class="light section-pad">
-      <div class="wrap">
-        <div class="passos-layout">
-          <div class="passos-text">
-            <div class="section-head">
-              <span class="eyebrow">Ao fim de cada ciclo</span>
-              <h2 class="display">
-                Próximos <span class="amber-txt">passos</span>
-              </h2>
-              <p>
-                Ao final dos 6 meses do ciclo, três caminhos possíveis com cada
-                cliente.
-              </p>
-            </div>
-            <div class="steps-list">
-              <div class="step-row">
-                <span class="n">1</span>
-                <div>
-                  <h4>Renovar o ciclo</h4>
-                  <p>
-                    Reiniciar o Método Trivium com um novo diagnóstico e novo
-                    plano de ação.
-                  </p>
-                </div>
-              </div>
-              <div class="step-row">
-                <span class="n">2</span>
-                <div>
-                  <h4>Próxima consultoria</h4>
-                  <p>
-                    Avançar para uma nova frente do portfólio, de acordo com a
-                    necessidade do negócio.
-                  </p>
-                </div>
-              </div>
-              <div class="step-row">
-                <span class="n">3</span>
-                <div>
-                  <h4>Consultoria de acompanhamento</h4>
-                  <p>
-                    Manter a empresa monitorada com um ritmo mais leve de
-                    acompanhamento.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <figure class="photo-figure passos-photo">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="img/passos.webp"
-              width="800"
-              height="1056"
-              alt="Consultor 4You conduzindo reunião de acompanhamento"
-            />
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTATO / FOOTER -->
-    <footer id="contato">
-      <div class="wrap">
-        <div class="footer-grid">
-          <div>
-            <h2 class="display footer-title">
-              Transformando a sua equipe em
-              <span class="amber">verdadeiros campeões.</span>
-            </h2>
-            <div class="footer-list">
-              <div class="row">
-                <span class="k">Endereço</span
-                ><span class="v"
-                  >Besha Boulevard, Av. Ver. Serafim Ribas, 2882 — Guarapuava,
-                  PR</span
-                >
-              </div>
-              <div class="row">
-                <span class="k">WhatsApp</span
-                ><a
-                  class="v"
-                  href="https://wa.me/554298282297"
-                  target="_blank"
-                  rel="noopener"
-                  >(42) 99828-2297</a
-                >
-              </div>
-              <div class="row">
-                <span class="k">Instagram</span
-                ><a
-                  class="v"
-                  href="https://www.instagram.com/4youconsultoriaempresarial/"
-                  target="_blank"
-                  rel="noopener"
-                  >@4youconsultoriaempresarial</a
-                >
-              </div>
-            </div>
-            <div class="footer-cta">
-              <a
-                class="cta-btn"
-                href="https://wa.me/554298282297"
-                target="_blank"
-                rel="noopener"
-                >Falar no WhatsApp</a
-              >
-              <a
-                class="ghost-btn"
-                href="https://form.respondi.app/IJdd9hLZ"
-                target="_blank"
-                rel="noopener"
-                >Raio-X Gratuito</a
-              >
-            </div>
-          </div>
-          <div class="footer-right">
-            <figure class="photo-figure footer-photo-box">
-              <img
-                loading="lazy"
-                decoding="async"
-                src="img/contato-equipe.webp"
-                width="750"
-                height="1000"
-                alt="Equipe 4You Consultoria Empresarial"
-              />
-            </figure>
-          </div>
-        </div>
-        <div class="foot-bottom">
-          <span>4You Consultoria Empresarial</span>
-        </div>
-      </div>
-    </footer>
-
-    <script src="script.js?v=2"></script>
-  </body>
+<script src="script.js"></script>
+</body>
 </html>

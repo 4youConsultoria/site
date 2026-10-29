@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/youconsultoria/public_html/
-    - /bin/cp -R index.html script.js styles.css img 4you-favicon $DEPLOYPATH
+    - /bin/cp -R index.html script.js styles.css robots.txt sitemap.xml img 4you-favicon $DEPLOYPATH
